@@ -1,5 +1,12 @@
 const {app, BrowserWindow} = require('electron');
 
+logo = `
+best electron app ever
+
+Copyright (C) 2019 AlwaysLivid
+Read the LICENSE.md file for more information.
+`;
+
 let win;
 
 function createWindow () {
@@ -21,6 +28,8 @@ app.on('window-all-closed', () => {
 
 app.on('activate', () => {
     if (win === null) {
-    createWindow()
+      createWindow()
   }
 })
+
+console.log(logo)
