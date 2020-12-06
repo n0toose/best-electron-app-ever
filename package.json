@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/AlwaysLivid/best-electron-app-ever#readme",
   "devDependencies": {
-    "electron": "^4.1.0"
+    "electron": "^4.2.12"
   }
 }
